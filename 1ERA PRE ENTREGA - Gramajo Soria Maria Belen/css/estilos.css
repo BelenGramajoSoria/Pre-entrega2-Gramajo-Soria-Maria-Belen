@@ -363,8 +363,9 @@ footer p{
     flex-wrap: wrap;
     align-content: center;
     background-color: rgba(249, 116, 0, 0.9);
-    margin: 80px;
+    margin: 100px;
     border-radius: 50px;
+    padding-left: 0;
 }
 .tiposDeProductosBox h2{
     font-family: "Belanosima", sans-serif;
@@ -380,28 +381,36 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .listaImagenes li {
-    width: 30%;
     text-align: center;
 }
-.listaImagenes ul li a p{
-    text-decoration: none;
+.cateletra{
+
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#062c45;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
 }
 .produc {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
+    margin: 25px;
 }
 .produc:hover {
     transform: scale(1.2);
 }
 /*seccion productos clasificados*/
 .listadoDeProductos h2{
-    font-family: "Edu VIC WA NT Beginner";
-    font-weight: 700;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
     font-style: normal;
     color: #81c0c4;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     margin: 20px;
 }
@@ -430,12 +439,20 @@ footer p{
     text-align: center;
     justify-content: center;
 }
-.galletas, .lacteos, .bebidas, .almacen, .frutas,.limpieza h5, p{
+h5 {
     font-family: "Belanosima", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
-    color: #062c45;
+    font-size: 40px;
+    color: #ffffff;
+    text-align:center;
+}
+.listadoDeProductos p{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: #ffffff;
     text-align:center;
 }
 .lacteos{
@@ -600,52 +617,83 @@ footer p{
 
 /*page sobre nosotros*/
 /*titulo sobre nosotros*/
-.tituloSobreNosotros {
-    height: 200px;
+.sobreNosotros {  display: grid;
+    grid-template-columns: 1fr 420px;
+    grid-template-rows: 200px 0.4fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tituloSN tituloSN"
+      "texto1 franjaV"
+      "texto2 franjaV";
     width: 100%;
-    background-color: #f97400;
-    justify-content: center;
+    height: auto;
+  }
+
+  .tituloSN { 
+    grid-area: tituloSN; 
+    width: 100%;
+     display: flex;
+     background-color: #f97400;
+     justify-content: center;
+     align-items: center;
 }
-.tituloSobreNosotros h2 {
+.tituloSN h2 {
     font-family: "Belanosima", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #062c45;
     font-size: 50px;
-    padding-top: 35px;
     text-align: center;
  }
  /*franja vertical sobre nosotros*/
- .verticalFranja2 {
-    position: absolute;
-    top: 19.7rem;
-    left: 70rem;
-    height: 1594px; 
-    width: 350px; 
-    background-color:#1fa2ac; 
+  .franjaV { 
+    grid-area: franjaV; 
+    background-color:#1fa2ac;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
     padding: 20px;
-  }
-  .verticalFranja2 img {
-    display: block; 
-    margin-bottom: 20px; 
-    max-width: 100%; 
-    margin-top: 70px;
-  }
-  /*texto sn*/
-  .textoLimitado {
-    max-width: 60%; 
-    margin-left: 90px;
+    justify-content: space-evenly;
+}
+/*texto sn*/
+  .texto1 { 
+    grid-area: texto1;
+    margin: 40px;
+ }
+ .texto1 p{
     font-family: "Edu VIC WA NT Beginner";
     font-weight: 200;
     font-style: normal;
     color:#062c45;
     font-size: 22px;
-    text-align: center;
     line-height: 1.5;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-/*valores sn*/
+ }
+ #str{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:#062c45;
+    font-size: 22px;
+    line-height: 1.5;
+ }
+  /*valores sn*/
+  .texto2 { 
+    grid-area: texto2;
+    text-align: center;
+    margin: 40px;
+ }
+ .textoLimitado{
+    font-family: "Edu VIC WA NT Beginner";
+    font-weight: 200;
+    font-style: normal;
+    color:#062c45;
+    font-size: 20px;
+    line-height: 1.5;
+    list-style-type: none;
+ }
 .valoresTitulo{
     font-family: "Belanosima", sans-serif;
     font-weight: 500;
@@ -653,8 +701,7 @@ footer p{
     font-size: 30px;
     text-align: center;
     color: #062c45;
-    max-width: 80%; 
-    text-align: center;
+
 }
 /*fin page sobre nosotros*/
 
@@ -840,7 +887,7 @@ footer p{
     margin: 5px;
 }
 
-/*media query index*/
+/*media query index 768*/
 /*seccion pedidos*/
 .pedidosBoxs{
     flex-direction: column;
@@ -921,10 +968,164 @@ transform: scale(1.2);
 }
 .logoFooter{
     margin-left: 42%;
+}
+/*fin media query index 768*/
+/*media query productos 768*/
+/*seccion productos*/
+.tituloProductos {  
+    height: 320px;;
+  }
+  .tituloProd { 
+    grid-area: tituloProd; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .inicioSusc {
+     padding-right: 50px;
+     padding-left: 50px;
+ }
+ol,ul{
+    padding-left: 0;
+}
+/*seccion grupo de productos*/
+.tiposDeProductosBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 80px;
+    border-radius: 50px;
+    padding-left: 0;
+}
+.tiposDeProductosBox h2{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#062c45;
+    font-size: 55px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.cateletra{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.produc {
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+}
+/*seccion productos clasificados*/
+.listadoDeProductos h2{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.listadoDeProductos h3{
+    font-size: 30px;
+}
+.imagenProducto {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/*galletas*/
+.galletas, .lacteos, .bebidas, .almacen, .frutas, .limpieza {
+    height: 420px;}
+    /*footer*/
+.redesSociales{
+    margin-right: 20px;
+}
+
+.imgRedes{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+/*fin media query productos 768*/
+
+
+/*media query 768px sobre nosotros*/
+/*titulo sobre nosotros*/
+.sobreNosotros { 
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 0.4fr 1fr 0.2fr;
+    grid-template-areas:
+      "tituloSN"
+      "texto1"
+      "texto2" 
+      "franjaV";
+  }
+.tituloSN h2 {
+    font-size: 45px;
+ }
+ /*franja vertical sobre nosotros*/
+  .franjaV { 
+    flex-direction: row;
+    margin-right: 0px;
+    justify-content: space-evenly;
+}
+.franjaV img{
+    width: 200px;
+    height: 200px;
+}
+/*texto sn*/
+  .texto1 { 
+    margin: 60px;
+ }
+ .texto1 p{
+    font-family: "Edu VIC WA NT Beginner";
+    font-weight: 200;
+    font-style: normal;
+    color:#062c45;
+    font-size: 22px;
+    line-height: 1.5;
+ }
+ #str{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:#062c45;
+    font-size: 22px;
+    line-height: 1.5;
+ }
+  /*valores sn*/
+  .texto2 { 
+    grid-area: texto2;
+    text-align: center;
+    margin: 40px;
+ }
+ .textoLimitado{
+    font-family: "Edu VIC WA NT Beginner";
+    font-weight: 200;
+    font-style: normal;
+    color:#062c45;
+    font-size: 20px;
+    line-height: 1.5;
+    list-style-type: none;
+ }
+.valoresTitulo{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #062c45;
 
 }
+/*fin media query 768px sobre nosotros*/
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:420px) {
-   /*media query index*/
+   /*media query index 420*/
    /*barra superior*/
 .barraSuperior{
     background-color:rgba(7, 131, 141, 0.7);
@@ -992,8 +1193,8 @@ transform: scale(1.2);
 
 }
 .logosPedidos {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin-left: 7px;
 }
 .logosPedidos2 {
@@ -1070,8 +1271,132 @@ display: none;
 }
 /*fin media 420 index*/
 
+/*media query productos 420px*/
+/*seccion productos*/
+.tituloProductos {  
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tituloProd" 
+      "inicioSusc"
+      "pedidoBox"
+      "pedidoBox";
+    height: 460px;
+  }
+  .tituloProd { 
+    grid-area: tituloProd; 
+}
+.tituloProd h2 { 
+    padding-top: 25px;
+    font-size: 40px;
+}
+/*seccion guia de pedidos*/  
+  .inicioSusc {
+     padding-right: 100px;
+     padding-left: 100px;
+ }
+  .vacio { 
+    display: none;
+ }
+.guiaDePedidos2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.guiaDePedidos2 li{
+    margin-right: 15px;
+}
+.tiposDeProductosBox{
+    margin: 40px;
+}
+.tiposDeProductosBox h2{
+    font-size: 40px;
+}
+/*seccion productos clasificados*/
+.listadoDeProductos h2{
 
+    font-size: 45px;
+    text-align: center;
+    margin: 5px;
+}
+.listadoDeProductos h3{
+    font-size: 25px;
 
+}
+.imagenProducto {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+}
+/*fin media query productos 420px*/
+
+/*fin media query 420px sobre nosotros*/
+/*titulo sobre nosotros*/
+.sobreNosotros {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr 1fr 0.3fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tituloSN"
+      "texto1"
+      "texto2"
+      "franjaV";
+    width: 100%;
+    height: auto;
+  }
+.tituloSN{
+ width: 100vw;
+  }
+.tituloSN h2 {
+    font-size: 30px;
+ }
+ /*franja vertical sobre nosotros*/
+  .franjaV { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100VW;
+}
+.franjaV img {
+   width: 200px;
+   height: 200px;
+ }
+/*texto sn*/
+  .texto1 { 
+    width: 100vw;
+    grid-area: texto1;
+    margin: 30px;
+ }
+ .texto1 p{
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 80vw;
+
+ }
+ #str{
+    font-size: 18px;
+ }
+  /*valores sn*/
+  .texto2 { 
+    margin: 30px;
+    max-width: 80vw;
+ }
+ .textoLimitado{
+    font-size: 18px;
+ }
+.valoresTitulo{
+    font-size: 20px;
+
+}
+/*fin media query 420px sobre nosotros*/
 
 
 

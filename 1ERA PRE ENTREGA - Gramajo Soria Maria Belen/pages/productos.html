@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Alvarito Market</title>
+     <link rel="shortcut icon" href="../images/favico/favicon.ico">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Dependencias de Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!--estilo-->
+     <link rel="stylesheet" href="../css/estilos.css">
+     <!--fuente no titulo-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+     <!--fuente titulo-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+ </head>
+ <!--body box-->
+ <body>
+    <header id="arriba">
+        <!--barra superior-->
+        <div class="barraSuperior">
+             <img class="logo1"src="../images/generales/icono.png" alt="logo alvarito">
+         </div>
+         <!--barra nav-->
+         <section class="barra2">
+             <nav class="navbar navbar-expand-lg bgAzul">
+                 <div class="container-fluid">
+                     <button class="navbar-toggler toggler-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                      </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                             <li class="nav-item">
+                                  <a class="nav-link" href="../index.html">INICIO</a>
+                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                                     MENU
+                                </a>
+                                <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item" href="../pages/pedidos.html">PEDIDOS</a></li>
+                                     <li><a class="dropdown-item" href="../pages/encontranos.html">ENCONTRANOS AQUI</a></li>
+                                     <li><a class="dropdown-item" href="../pages/sobre nosotros.html">SOBRE NOSOTROS</a></li>
+                                 </ul>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="../index.html#ofertas">OFERTAS</a>
+                             </li>
+                         </ul>
+                         <form class="d-flex" role="search">
+                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                             <button class="btn " type="submit"><img class="logoSerch" src="../images/generales/SERCH.png"alt="logo serch"></imgsrc></button>
+                         </form>
+                     </div>
+                </div>
+            </nav>
+        </section> 
+     </header>
+      <main class="mainIndex">
+         <!--Seccion titulo-->
+         <section class="tituloProductosBox"> 
+             <div class="tituloProductos">
+                 <div class="tituloProd">
+                    <h2 class="h2Productos">PRODUCTOS</h2>
+                 </div>
+                  <div class="inicioSusc">
+                     <a class="boton" href="../pages/pedidos.html#iniciasesion"target="_blank">Inicio de sesion</a>
+                     <a class="boton" href="../pages/pedidos.html#suscribite"target="_blank">Suscribite</a>
+                  </div>
+                  <!--Seccion guia de pedidos-->
+                  <div class="pedidoBox">
+                    <div class="guiaDePedidos2">
+                        <ul>
+                            <li><a href="../pages/pedidos.html#iniciasesion" target="_blank"><img class="logosPedidos" src="../images/generales/logo inicio de sesion.png" alt="inicia sesion"></a></li>
+                            <li><img class="logosPedidos2" src="../images/generales/flecha2.png" alt="flecha"></li>
+                            <li><a href="../pages/productos.html" target="_blank"><img  class="logosPedidos" src="../images/generales/elegi tus productos logo.png" alt="elegi tus Productos"></a></li>
+                            <li><img class="logosPedidos2" src="../images/generales/flecha2.png" alt="flecha"></li>
+                            <li><a href="../pages/pedidos.html" target="_blank"><img class="logosPedidos" src="../images/generales/realiza tu pedido logo.png" alt="realiza tu pedido"></a> </li>
+                            <li><img class="logosPedidos2" src="../images/generales/flecha2.png" alt="flecha"></li>
+                            <li><a href="../pages/encontranos.html#mapa" target="_blank"><img class="logosPedidos" src="../images/generales/espera logo.png" alt="retira tu compra o espera el envio"></a></li>
+                         </ul>
+                    </div>
+                  </div>
+                  <div class="vacio">
+                    <h3> </h3>
+                  </div>
+              </div>
+         </section>
+         <!--seccion grupo de productos-->
+         <div class="tiposDeProductosBox">
+              <h2>CATEGORIAS</h2>
+              <ul class="listaImagenes">
+                
+                   <li> 
+                      <a href="#lecheof">
+                          <img class="produc" src="../images/productos/productos generales/lacteosgral.png" alt="lacteos y productos frescos">
+                          <p>LACTEOS</p>
+                      </a>
+                  </li>
+                   <li>
+                       <a href="#bebidasof">
+                          <img class="produc" src="../images/productos/productos generales/bebidasgral.png" alt="bebidas">
+                          <p>BEBIDAS</p>
+                     </a>
+                  </li>
+                   <li>
+                      <a href="#galletasof">
+                          <img class="produc" src="../images/productos/productos generales/galletasgral.png" alt="galletas, snacks y golosinas">
+                          <p>GALLETAS Y GOLOSINAS</p>
+                      </a>
+                  </li>
+                   <li>
+                      <a href="#almacenof">
+                          <img class="produc" src="../images/productos/productos generales/almacengral.png" alt="almacen y panaderia">
+                          <p>ALMACEN</p>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#jabon1">
+                          <img class="produc" src="../images/productos/productos generales/limpiezagral.png" alt="articulos de limpieza e higiene">
+                          <p>LIMPIEZA E HIGIENE</p> 
+                      </a>
+                   </li>
+                   <li>
+                       <a href="#nuez">
+                          <img class="produc" src="../images/productos/productos generales/frutasgral.png" alt="frutas y verduras">
+                          <p>FRUTAS Y VERDURAS</p>
+                       </a>
+                  </li>
+              </ul>
+         </div>
+         <!--seccion productos clasificados-->
+         <section class="listadoDeProductos">
+              <h2> LISTADOS DE PRODUCTOS</h2>
+              <!--Galletas-->
+              <div class="galletas" id="galletaof">
+                  <h3>GALLETAS, SNACKS, GOLOSINAS Y CHOCOLATES
+                  </h3>
+                  <div id="cookies" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                         <img class="imagenProducto" src="../images/productos/galletas/galleta1.png" class="d-block w-100" alt="foto galleta 1">
+                         <div class="carousel-caption d-none d-md-block">
+                             <h5>Galleta Chips Ahoy</h5>
+                             <p>$500.</p>
+                         </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="imagenProducto" src="../images/productos/galletas/galleta2.png" class="d-block w-100" alt="foto galleta 2">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>Galleta Chocolate Tentacion</h5>
+                              <p>$380.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="imagenProducto" src="../images/productos/galletas/galleta3.png" class="d-block w-100" alt="foto galleta 3">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>Galleta Avena y Girasol</h5>
+                              <p>$320.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="imagenProducto" src="../images/productos/galletas/galleta4.png" class="d-block w-100" alt="foto galleta 4">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>Galleta de Calabaza</h5>
+                              <p>$550.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="imagenProducto" src="../images/productos/galletas/galleta5.png" class="d-block w-100" alt="foto galleta 5">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Galleta Chocolate y Curcuma</h5>
+                            <p>$400.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cookies" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cookies" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+              <!--Lacteos-->
+              <div class="lacteos" id="lecheof">
+                  <h3> LACTEOS Y PRODUCTOS FRESCOS</h3>
+                  <div id="dairy" class="carousel slide carousel-fade">
+                     <div class="carousel-inner">
+                         <div class="carousel-item active">
+                             <img class="imagenProducto" src="../images/productos/lacteos/leche.png" class="d-block w-100" alt="lacteo1">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Leche La Vaquita</h5>
+                                  <p>$120.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                               <img class="imagenProducto" src="../images/productos/lacteos/leche2.png" class="d-block w-100" alt="lacteo2">
+                               <div class="carousel-caption d-none d-md-block">
+                                  <h5>Yogur La Vaquita</h5>
+                                  <p>$450.</p>
+                               </div>
+                           </div>
+                           <div class="carousel-item">
+                              <img class="imagenProducto" src="../images/productos/lacteos/leche3.png" class="d-block w-100" alt="lacteos3">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Queso Especias</h5>
+                                  <p>$350.</p>
+                             </div>
+                          </div>
+                           <div class="carousel-item">
+                              <img class="imagenProducto" src="../images/productos/lacteos/leche4.png" class="d-block w-100" alt="lacteos4">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Queso Brie</h5>
+                                  <p>$420.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="imagenProducto" src="../images/productos/lacteos/leche5.png" class="d-block w-100" alt="lacteos5">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Queso Ricotta</h5>
+                                <p>$280.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button"  data-bs-target="#dairy" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#dairy" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                       </button>
+                  </div>
+             </div>  
+                <!--Bebidas-->
+             <div class="bebidas" id="bebidasof">
+                  <h3> BEBIDAS </h3>
+                  <div id="drinks" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagenProducto" src="../images/productos/bebidas/bebida1.png" class="d-block w-100" alt="bebida1">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Leche La Vaquita</h5>
+                                 <p>$1260.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                              <img class="imagenProducto" src="../images/productos/bebidas/bebidas2.png" class="d-block w-100" alt="bebida2">
+                              <div class="carousel-caption d-none d-md-block">
+                                 <h5>Yogur La Vaquita</h5>
+                                 <p>$750.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/bebidas/bebida3.png" class="d-block w-100" alt="bebida3">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Queso Especias</h5>
+                                 <p>$3590.</p>
+                            </div>
+                         </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/bebidas/bebida4.png" class="d-block w-100" alt="bebida4">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Queso Brie</h5>
+                                 <p>$4620.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img class="imagenProducto" src="../images/productos/bebidas/bebida5.png" class="d-block w-100" alt="bebida5">
+                           <div class="carousel-caption d-none d-md-block">
+                               <h5>Queso Ricotta</h5>
+                               <p>$2080.</p>
+                           </div>
+                       </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button"  data-bs-target="#drinks" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#drinks" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                      </button>
+                 </div>
+            </div>  
+                <!--almacen-->
+              <div class="almacen" id="almacenof">
+                  <h3> ALMACEN Y PANADERIA </h3>
+                  <div id="grocery" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagenProducto" src="../images/productos/almacen/almacen.png" class="d-block w-100" alt="almacen1">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Mermelada Casera</h5>
+                                 <p>$160.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                              <img class="imagenProducto" src="../images/productos/almacen/almacen1.png" class="d-block w-100" alt="almacen2">
+                              <div class="carousel-caption d-none d-md-block">
+                                 <h5>Pickles de Pepino</h5>
+                                 <p>$650.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/almacen/almacen2.png" class="d-block w-100" alt="almacen3">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Noquis Frescos</h5>
+                                 <p>$390.</p>
+                            </div>
+                         </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/almacen/almacen3.png" class="d-block w-100" alt="almacen4">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Granola con Frutos Secos</h5>
+                                 <p>$620.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img class="imagenProducto" src="../images/productos/almacen/almacen4.png" class="d-block w-100" alt="almacen5">
+                           <div class="carousel-caption d-none d-md-block">
+                               <h5>Miel de Abejas</h5>
+                               <p>$80.</p>
+                           </div>
+                       </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button"  data-bs-target="#grocery" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#grocery" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                      </button>
+                 </div>
+            </div>  
+              <!--frutas-->
+              <div class="frutas" id="nuez">
+                 <h3> FRUTAS Y VERDURAS </h3>
+                 <div id="fruts" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagenProducto" src="../images/productos/frutas/ajies.png" class="d-block w-100" alt="frutas1">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Ajies</h5>
+                                 <p>$60.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/frutas/esparragos.png" class="d-block w-100" alt="frutas2">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Esparragos</h5>
+                                 <p>$80.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="imagenProducto" src="../images/productos/frutas/maramja.png" class="d-block w-100" alt="frutas3">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Naranjas</h5>
+                                 <p>$30.</p>
+                            </div>
+                         </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/frutas/nuezpng.png" class="d-block w-100" alt="frutas4">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Nuez Garrapinada</h5>
+                                 <p>$120.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                            <img class="imagenProducto" src="../images/productos/frutas/tomate.png" class="d-block w-100" alt="frutas5">
+                           <div class="carousel-caption d-none d-md-block">
+                               <h5>Tomates Cherries</h5>
+                               <p>$80.</p>
+                           </div>
+                       </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button"  data-bs-target="#fruts" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#fruts" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                      </button>
+                 </div>
+            </div>  
+             <!--limpieza-->
+             <div class="limpieza" id="jabon1">
+                 <h3> LIMPIEZA Y ARTICULOS DE HIGIENE </h3>
+                 <div id="clean" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                             <img class="imagenProducto" src="../images/productos/limpieza/jabon1.png" class="d-block w-100" alt="limpieza1">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Shampoo Solido Brown</h5>
+                                 <p>$400.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/limpieza/jabon2.png" class="d-block w-100" alt="limpieza2">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Shampoo Solido White</h5>
+                                 <p>$420.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/limpieza/jabon3.png" class="d-block w-100" alt="limpieza3">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Jabon Liquido</h5>
+                                 <p>$300.</p>
+                            </div>
+                         </div>
+                          <div class="carousel-item">
+                             <img class="imagenProducto" src="../images/productos/limpieza/jabon4.png" class="d-block w-100" alt="limpieza4">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>Acondicionador</h5>
+                                 <p>$120.</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                            <img class="imagenProducto" src="../images/productos/limpieza/jabon5.png" class="d-block w-100" alt="limpieza5">
+                           <div class="carousel-caption d-none d-md-block">
+                               <h5>Detergente</h5>
+                               <p>$280.</p>
+                           </div>
+                       </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button"  data-bs-target="#clean" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#clean" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                      </button>
+                 </div>
+             </div> 
+         </section>
+      </main> 
+     <!--footer -->
+     <footer>
+        <div>
+            <a href="#arriba"><img class="flecha" src="../images/generales/flecha.png" alt="flecha"></a>
+        </div>
+        <div>
+           <a href="../index.html"><img class="logoFooter" src="../images/favico/Icono.ico" alt="logo footer"></a>
+        </div>
+        <div class="redesSociales">   
+            <p>SEGUINOS EN NUESTRAS REDES</p>  
+            <div class="img">
+                <a href="https://www.instagram.com/belu.gs/" target="_blank"><img class="imgRedes" src="../images/generales/insta.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/gramajosoriamb"  target="_blank"><img class="imgRedes"src="../images/generales/facebook.png"></a>
+                <a href="https://wa.me/3816208957" target="_blank"><img class="imgRedes" src="../images/generales/whatsapp.png"   alt="whatsapp"></a>
+             </div> 
+         </div>  
+      </footer>
+      <!--Dependencias de javascript para Bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

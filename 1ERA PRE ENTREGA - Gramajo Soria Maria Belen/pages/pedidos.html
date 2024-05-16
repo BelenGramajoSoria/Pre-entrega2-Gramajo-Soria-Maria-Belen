@@ -19,21 +19,46 @@
  </head>
  <!--body box-->
  <body>
-      <header id="arriba">
-         <!--barra superior-->
-         <div class="barraSuperior">
-              <img class="logo1"src="../images/generales/icono.png" alt="logo alvarito">
-          </div>
-          <!--barra nav-->
-          <nav class="barra2">
-              <ul>
-                   <li><a href="../index.html">Inicio</a></li>
-                   <li><a href="../pages/encontranos.html">Encontranos</a></li>
-                   <li class="derecha"><a href="../pages/pedidos.html">Pedidos</a></li>
-                   <li><a href="../pages/productos.html">Productos</a></li>
-              </ul>
-          </nav>
-      </header>
+    <header id="arriba">
+        <!--barra superior-->
+        <div class="barraSuperior">
+             <img class="logo1"src="../images/generales/icono.png" alt="logo alvarito">
+         </div>
+         <!--barra nav-->
+         <section class="barra2">
+             <nav class="navbar navbar-expand-lg bgAzul">
+                 <div class="container-fluid">
+                     <button class="navbar-toggler toggler-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                      </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                             <li class="nav-item">
+                                  <a class="nav-link" href="../index.html">INICIO</a>
+                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                                     MENU
+                                </a>
+                                <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item" href="../pages/pedidos.html">PEDIDOS</a></li>
+                                     <li><a class="dropdown-item" href="../pages/encontranos.html">ENCONTRANOS AQUI</a></li>
+                                     <li><a class="dropdown-item" href="../pages/sobre nosotros.html">SOBRE NOSOTROS</a></li>
+                                 </ul>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="../index.html#ofertas">OFERTAS</a>
+                             </li>
+                         </ul>
+                         <form class="d-flex" role="search">
+                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                             <button class="btn " type="submit"><img class="logoSerch" src="../images/generales/SERCH.png"alt="logo serch"></imgsrc></button>
+                         </form>
+                     </div>
+                </div>
+            </nav>
+        </section> 
+     </header>
       <main>
           <!--titulo pedidos -->
           <section class="tituloPedidos"> 

@@ -1,414 +1,0 @@
-00:46:09	Ronaldo Villalba:	buenaaas
-00:46:14	Emmanuel Pereyra:	Buenas tardes
-00:46:29	Emanuel Gracia:	Buenas tardes
-00:46:29	[Tutor Adjunto] Andrés Pata:	buenas buenas, me quedan solo upar de entregas de los que enregaron post 23h, están a tiempo en corrección pero me hubiese gustado terminar para ahora
-00:46:34	[Tutor Adjunto] Andrés Pata:	igual las fulmino ya
-00:47:07	Alberto Castillo:	ahh genial
-00:47:37	Ronaldo Villalba:	hermoso
-00:47:45	[Tutor Adjunto] Andrés Pata:	créanme, no les va a gustar implementar bootstrap a un proyecto ya empezado, les va a ayudar mucho
-00:47:45	Oscar Fernández:	excelente
-00:47:50	Nicolás Kupiec:	Buenas noches
-00:47:58	Alberto Castillo:	si vamos con bootsrap de una jaja
-00:49:15	[Profesor] Mercedes Passano:	https://kahoot.it/?pin=1179187&refer_method=link
-00:49:23	Manuela Gomez:	hola!!!! casi no llego jajajajaj
-00:49:31	[TUTORA] Julieta Romano:	Reacted to "hola!!!! casi no lle..." with 👋
-00:49:45	[Tutor Adjunto] Andrés Pata:	Reacted to "hola!!!! casi no lle..." with 👋
-00:58:54	[TUTORA] Julieta Romano:	🥳
-00:58:59	Sebastian Tarre Cinel:	EAAAA
-00:59:22	[TUTORA] Julieta Romano:	Reacted to "EAAAA" with 💪
-00:59:33	Hernan Sartorio:	la pechee en la última porque el pad no me tomó el desliz
-00:59:58	[Tutor Adjunto] Andrés Pata:	hay varios de uds que usaron hover en la entrega.
-01:00:29	[TUTORA] Julieta Romano:	Reacted to "hay varios de uds qu..." with 👆
-01:01:38	Ali Alvarado:	Reacted to "hay varios de uds qu..." with 👍🏻
-01:01:46	Manuela Gomez:	Reacted to "hay varios de uds qu..." with 👍🏻
-01:01:53	Guido Lopez:	Reacted to "hay varios de uds qu..." with 👍🏻
-01:02:39	Oscar Fernández:	Reacted to "hay varios de uds qu..." with 👆
-01:02:49	Sebastian Piñeiro Madero:	No adjuntara el html?
-01:02:58	Manuela Gomez:	Reacted to "No adjuntara el html..." with 👍
-01:04:10	Ali Alvarado:	Reacted to "No adjuntara el html..." with 👍
-01:05:54	[Tutor Adjunto] Andrés Pata:	Cuando empecé aprender el visited me puso muy contento, el color de fondo de mi página era violeta y los links visitados no se veían
-01:06:21	Emiliano Duque Iglesias:	Reacted to "Cuando empecé aprend..." with 😂
-01:07:08	Ronaldo Villalba:	Replying to "Cuando empecé aprend..."
-
-yo le cambie la paleta de colores a mi pagina a violeta 🥲
-01:07:26	Guido Lopez:	Reacted to "Cuando empecé aprend..." with 😂
-01:07:28	[Tutor Adjunto] Andrés Pata:	Reacted to "yo le cambie la pale..." with 🫂
-01:07:46	Guido Lopez:	mejor un fondo claro siempre
-01:07:51	Guido Lopez:	jajaja
-01:08:13	Manuela Gomez:	Reacted to "Cuando empecé aprend..." with 😂
-01:08:20	[Tutor Adjunto] Andrés Pata:	aguante los temas oscuros/pastel por si estas trasnochando
-01:08:37	[TUTORA] Julieta Romano:	Reacted to "aguante los temas os..." with 🤣
-01:08:50	Hernan Sartorio:	Replying to "mejor un fondo claro..."
-
-el diseñador de la plataforma de coder no opina lo mismo jajaja
-01:08:57	Emiliano Duque Iglesias:	Replying to "mejor un fondo claro..."
-
-me quemo los ojos
-01:09:20	Sebastian Tarre Cinel:	Reacted to "me quemo los ojos" with 👆
-01:09:26	Hernan Sartorio:	Reacted to "aguante los temas os..." with 👆
-01:09:30	Ronaldo Villalba:	Replying to "mejor un fondo claro..."
-
-siento que depende mucho el tema de la pagina igual
-01:09:42	Ronaldo Villalba:	Replying to "mejor un fondo claro..."
-
-la paleta de colores
-01:09:50	[Tutor Adjunto] Andrés Pata:	Replying to "mejor un fondo claro..."
-
-Fijense que pueden activar tema oscuro en coder
-01:10:03	Guido Lopez:	Replying to "mejor un fondo claro..."
-
-@Ronaldo Villalba sisi totalmetne
-01:10:08	Ronaldo Villalba:	Replying to "mejor un fondo claro..."
-
-@[Tutor Adjunto] Andrés Pata es buenisimo eso
-01:10:13	Ronaldo Villalba:	Replying to "mejor un fondo claro..."
-
-lo descubri el otro dia
-01:10:58	[Tutor Adjunto] Andrés Pata:	Replying to "mejor un fondo claro..."
-
-siento que depende mucho el tema de la pagina igualEs 100% verdad esto, no soy diseñador, pero se que ciertos colores represetan distintas asociaciones y los fondos blancos van mucho con empresas y colores azules se usan con tecnología, etc
-01:11:16	Alberto Castillo:	Reacted to "aguante los temas os..." with 🤣
-01:12:00	Ronaldo Villalba:	estamos chusmeando nomas profe jajaja
-01:12:31	[Profesor] Mercedes Passano:	<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link rel="stylesheet" href="./css/estilo.css">    <title>Pseudoclases</title></head><body>    <header>        <h1>PSEUDOCLASES</h1>    </header>    <nav>        <a href="http://www.coca-cola.com">Link 1</a>        <a href="hola.html">Link 2</a>        <a href="pag2.html">Link 3</a>        <a href="#">Link 4</a>    </nav>    </body></html>
-01:12:38	[Profesor] Mercedes Passano:	a{    padding:10px;    font-family: Verdana, Geneva, Tahoma, sans-serif;    color:red;}a:hover{    color:green;    background-color: yellow;}a:active{    color:black;    text-decoration: none;    background-color: aquamarine;}a:visited{    color:blue;    background-color: red;}
-01:12:58	[Tutor Adjunto] Andrés Pata:	como amo/odio a bem
-01:13:08	Ali Alvarado:	Reacted to "como amo/odio a bem" with 😂
-01:13:11	[Tutor Adjunto] Andrés Pata:	en equipos es genial, solo no me gusta para nada
-01:13:13	Guido Lopez:	Replying to "como amo/odio a bem"
-
-el tio bem
-01:13:28	Ronaldo Villalba:	Reacted to "como amo/odio a bem" with 🤨
-01:13:32	[Tutor Adjunto] Andrés Pata:	Reacted to "el tio bem" with 😂
-01:13:36	[TUTORA] Julieta Romano:	Reacted to "el tio bem" with 🤣
-01:13:43	Ali Alvarado:	Reacted to "el tio bem" with 😂
-01:13:48	Ronaldo Villalba:	Reacted to "el tio bem" with 😂
-01:14:43	Natalia Gutierrez:	que significa la m?
-01:14:49	Guido Lopez:	modifier
-01:14:58	Natalia Gutierrez:	Reacted to "modifier" with ❤️
-01:15:07	Alberto Castillo:	seria una buena práctica ?
-01:15:37	[Tutor Adjunto] Andrés Pata:	Replying to "seria una buena prác..."
-
-es genial trabajando en equipos y suele ser enforzado por el PM, ahora, las clases terminan siendo bastante largas
-01:15:49	[Tutor Adjunto] Andrés Pata:	Replying to "seria una buena prác..."
-
-acostumbrarse a usarlo sirve bastante
-01:19:39	Manuela Gomez:	creo q no entiendo jajaja lo sigo procesando jajajjaa
-01:19:48	Manuela Gomez:	espero el ejemplo me sirva mas jajajaja
-01:21:25	Guido Lopez:	en la pagina de canva hay muchas paletas de colores con los códigos para poner en vsc
-01:21:42	Gastón Larrosa:	Reacted to "en la pagina de canv..." with 👍
-01:21:44	[TUTORA] Julieta Romano:	https://coolors.co/https://paletadecolores.online/
-01:21:45	Sebastian Piñeiro Madero:	Reacted to "en la pagina de canv..." with 👏
-01:22:12	Manuela Gomez:	como se llamaba la pagina para ver q combinaciones de colores sirven dependiendo de la discapacidad visual???
-01:22:57	[TUTORA] Julieta Romano:	Replying to "como se llamaba la p..."
-
-No recuerdo cual había pasado la profe, te puedo recomendar estas:https://palett.es/accessibilityhttps://www.siegemedia.com/contrast-ratio
-01:23:13	[Tutor Adjunto] Andrés Pata:	Replying to "como se llamaba la p..."
-
-podes usar la extension de lighthouse en el ordenador apra analizarlo
-01:23:19	Sebastian Tarre Cinel:	Una consulta... Los menus desplegables también se hacen solo con css? y vamos a darlo en este curso?
-01:23:21	[Tutor Adjunto] Andrés Pata:	Reacted to "No recuerdo cual hab..." with ☝️
-01:23:56	[Tutor Adjunto] Andrés Pata:	es css+js, vamos a usar los de bootstrap y pueden hacer unos maso maso con css, pero para crearlos vos necesitas saber js.
-01:24:08	[TUTORA] Julieta Romano:	Reacted to "es css+js, vamos a u..." with 👆
-01:24:10	Sebastian Tarre Cinel:	Replying to "es css+js, vamos a u..."
-
-joya, gracias
-01:24:26	Guido Lopez:	Replying to "es css+js, vamos a u..."
-
-y js vemos algo?
-01:24:34	[Tutor Adjunto] Andrés Pata:	Replying to "es css+js, vamos a u..."
-
-en desarrollo web no
-01:31:23	Nicolas Combi:	le falta una comilla a header logo
-01:33:07	Valentin Baima:	😀
-01:33:11	Ricardo Cristopher:	las comillas en la clase de la imagen profesora
-01:37:50	Sebastian Piñeiro Madero:	Para alinearlas unas al lado de otras que fue lo que se hizo?
-01:38:04	Manuel Eberhardt:	Replying to "Para alinearlas unas..."
-
-display: flex;
-01:38:16	Guido Lopez:	Replying to "Para alinearlas unas..."
-
-al body
-01:38:21	[TUTORA] Julieta Romano:	Replying to "Para alinearlas unas..."
-
-en main
-01:38:26	Guido Lopez:	Replying to "Para alinearlas unas..."
-
-eso
-01:38:47	Sebastian Piñeiro Madero:	Reacted to "en main" with 👏
-01:38:55	Sebastian Piñeiro Madero:	Reacted to "display: flex;" with 👏
-01:39:53	Ronaldo Villalba:	ya entendi
-01:40:40	Ronaldo Villalba:	Replying to "como amo/odio a bem"
-
-ahora entiendo es mucho tiempo🥲
-01:42:05	Guido Lopez:	por ahora no
-01:42:24	Yannick Lerner:	podrias poner el HTML un momento?
-01:42:45	Pablo Chittolini:	puede dejar los codigos en pantalla
-01:42:56	Pablo Chittolini:	gracias
-01:43:14	Sebastian Piñeiro Madero:	El css esta deade el inicio?
-01:49:29	[TUTORA] Julieta Romano:	Adhiero a lo que dice Andres!
-01:49:56	Libby Estrella:	noi me deja hablar
-01:49:57	Ronaldo Villalba:	Consulta quizás un poco tonta, pero estoy creando casi toda mi página en una pantalla de TV, y cuando la veo en un monitor se ve diferente. ¿Es esto debido al responsive? ¿Debería modificarlo para monitores también y no solo para celulares y tablets, verdad?
-01:49:58	Libby Estrella:	lool\
-01:50:10	Sebastian Piñeiro Madero:	Entonces por google drive no esta bien compartirlo?
-01:50:25	Sebastian Piñeiro Madero:	Que no me dejaba anexar mi archivo por el tamaño
-01:50:26	[Tutor Adjunto] Andrés Pata:	Replying to "Consulta quizás un p..."
-
-exacto
-01:50:37	Ronaldo Villalba:	Replying to "Consulta quizás un p..."
-
-perfecto
-01:50:46	[TUTORA] Julieta Romano:	En esta entrega esta bien pero tienen que poner el link publico
-01:51:43	[TUTORA] Julieta Romano:	Selecciona el archivo que quieres compartir.Haz clic en Compartir o Compartir .En “Acceso general”, haz clic en la flecha hacia abajo .Elige Cualquier persona que tenga el vínculo.Para decidir qué rol tendrán las personas, selecciona Lector, Comentarista o Editor.Haz clic en Copiar vínculo.Haz clic en Listo.
-01:52:02	[Tutor Adjunto] Andrés Pata:	Replying to "Entonces por google ..."
-
-esta bien compartirlo si tenemos acceso a las correcciones
-01:53:02	María Josefina Tangredi:	me paso lo mismo q Sebastian
-01:53:04	[TUTORA] Julieta Romano:	para generar espacios, ya que es considerado una mala práctica, lo mejor es realizarlo con css mediante padding o margin. Para hacer borde utilizas border top o border bottom
-01:55:05	Yannick Lerner:	pero comentar en que sentido?
-01:55:13	Natalia Gutierrez:	profe no sr como se comenta en el código
-01:55:18	Yannick Lerner:	ahh genial
-01:55:20	Mauricio Diaz:	<!
-01:55:22	Sebastian Tarre Cinel:	Pero que se supone que tenemos que comentar?
-01:55:27	Rafael Treggia:	puede dar un ejemplo de un comentario de código profe?
-01:55:28	Natalia Gutierrez:	no encontré una clase donde se explique
-01:55:46	[TUTORA] Julieta Romano:	Digo lo mismo, si alguien tiene alguna duda sobre las correcciones me pregunta por privado
-01:55:57	Rafael Treggia:	gracias
-01:56:05	Natalia Gutierrez:	yo quería hacerlo pero no sabía como!
-01:56:16	[Tutor Adjunto] Andrés Pata:	en html y css sirve de marcadores para navegar más claro el código, el explicar porque implementaste algo de una manera sobre las otras es importantisimo
-01:56:21	[TUTORA] Julieta Romano:	Reacted to "en html y css sirve ..." with 👆
-01:56:39	Natalia Gutierrez:	poniendo el !?
-01:56:52	[Tutor Adjunto] Andrés Pata:	<!-- comentario -->
-01:57:03	[Tutor Adjunto] Andrés Pata:	ctrl+/ genera un comentario en la línea
-01:57:06	Ricardo Cristopher:	Replying to "poniendo el !?"
-
-<!-- -->
-01:57:08	Sebastian Tarre Cinel:	Replying to "poniendo el !?"
-
-yo uso el atajo
-01:57:09	Natalia Gutierrez:	Reacted to "ctrl+/ genera un com..." with ❤️
-01:57:11	[TUTORA] Julieta Romano:	shift alt a para comentar
-01:57:17	Emiliano Duque Iglesias:	Reacted to "shift alt a para com..." with ❤️
-01:57:22	Ricardo Cristopher:	Replying to "poniendo el !?"
-
-todo lo que este dentro de esos simbolos es comentario en hmtl bro
-01:57:26	[Tutor Adjunto] Andrés Pata:	hay muchísimos atajos de comentarios
-01:57:43	[Tutor Adjunto] Andrés Pata:	espíen los atajos de vscode aca: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-01:57:49	Manuela Gomez:	Reacted to "shift alt a para com..." with ❤️
-01:58:06	[TUTORA] Julieta Romano:	Reacted to "espíen los atajos de..." with 👆
-01:58:59	[Tutor Adjunto] Andrés Pata:	Es como agarrar moldes creados por otros programadores, ahorran mucho tiempo. Es más, jQuery era tan útil que estaba en la mayoría de los proyectos
-02:00:35	Ronaldo Villalba:	Replying to "Es como agarrar mold..."
-
-se eliminaría edición de nuestro proyecto? nunca llegue a ver bien realmente bootstrap
-02:00:40	[Tutor Adjunto] Andrés Pata:	Un framework en cavernícola pueden verlo con una colección de código tan grande que no es como una ayuda sino que tenes que codear alrededor de el
-02:01:13	[Tutor Adjunto] Andrés Pata:	Replying to "Es como agarrar mold..."
-
-no, es más, lo ideal es usar cosas de la librería y adaptarlas a tu código
-02:01:29	Ronaldo Villalba:	Replying to "Es como agarrar mold..."
-
-ah esta re bueno entonces
-02:04:14	Natalia Gutierrez:	Replying to "Es como agarrar mold..."
-
-lo pasa?
-02:04:32	Oscar Fernández:	Reacted to "Un framework en cave..." with 😮
-02:05:27	Natalia Gutierrez:	Replying to "Es como agarrar mold..."
-
-pase la carpet profe!
-02:05:44	[Profesor] Mercedes Passano:	https://getbootstrap.com/
-02:07:21	Alberto Castillo:	a la hora de hacer un sitio,conviene hacerlo en Bootstrap o plantearlo con css?
-02:07:30	Manuela Gomez:	puedo ver el HTML??
-02:07:58	[Tutor Adjunto] Andrés Pata:	En programación, muchísimas cosas van a estar solo en ingles,a si que es por eso que se valora muchísimo saber ingles, la mayoría de la documentación esta en ese idioma.
-02:08:42	[TUTORA] Julieta Romano:	Reacted to "En programación, muc..." with 👆
-02:09:10	[Tutor Adjunto] Andrés Pata:	es un problema si el traductor de google traduce sin querer el código si no esta bien configurada
-02:09:24	[Tutor Adjunto] Andrés Pata:	cuando copien código, desactiven el traductor
-02:09:36	Guido Lopez:	me paso el otro dia haciendo grids en la pagina que nos paso la profe y me tradujo palabras del código. Obviamente no funcionaba nada
-02:09:56	[Tutor Adjunto] Andrés Pata:	Reacted to "me paso el otro dia ..." with 🫂
-02:10:20	[Tutor Adjunto] Andrés Pata:	No intenten usar el npm
-02:10:33	Ronaldo Villalba:	npm?
-02:10:38	Libby Estrella:	por?
-02:10:43	[Tutor Adjunto] Andrés Pata:	Replying to "npm?"
-
-un método de instalación
-02:10:48	Ronaldo Villalba:	Replying to "npm?"
-
-ah
-02:10:54	Libby Estrella:	Reacted to "un método de instala..." with 😯
-02:10:54	[Tutor Adjunto] Andrés Pata:	Replying to "npm?"
-
-tienen que usarlo muy distinto si lo ahcen
-02:10:57	Natalia Gutierrez:	hay q aprender ingles compas. Es el lenguaje universal...
-02:11:53	[Tutor Adjunto] Andrés Pata:	Replying to "por?"
-
-se usa muy distinto porque hay que saber usar js para usarlo bien ahi en el caso de bootstrap e importar/exportar cosas. Con sass lo vamos a usar con npm probablemente pero es distinto como se usa.
-02:11:59	Sebastian Piñeiro Madero:	Reacted to "hay q aprender ingle..." with 👍
-02:12:09	Libby Estrella:	Reacted to "se usa muy distinto ..." with 😯
-02:12:18	Mauricio Diaz:	siempre
-02:12:22	Mauricio Diaz:	es mas importante que comer
-02:12:49	Natalia Gutierrez:	Reacted to "es mas importante qu..." with 😂
-02:12:59	Natalia Gutierrez:	Replying to "es mas importante qu..."
-
-mal jajaja
-02:14:17	Mauro Flor:	see
-02:14:20	Ronaldo Villalba:	sii
-02:14:24	Alberto Castillo:	aparte por el uso de sass
-02:14:29	Emanuel Gracia:	podría repetir profe
-02:14:55	[Tutor Adjunto] Andrés Pata:	Replying to "por?"
-
-también pueden descargar los archivos de bootstrap
-02:15:30	Alberto Castillo:	con que versión es recomendable trabajar?
-02:15:33	[Tutor Adjunto] Andrés Pata:	también pueden descargar los archivos de bootstrap manualmente quetecnicamente es más seguro (ponele un 0.5% más en caso de algo como bootstrap)
-02:15:37	Ronaldo Villalba:	Replying to "aparte por el uso de..."
-
-Nombraste a el que no debe ser nombrado😰
-02:16:16	Emiliano Duque Iglesias:	sii se entiende
-02:16:19	Emanuel Gracia:	gracias profe
-02:16:42	Sebastian Piñeiro Madero:	Entonces no se tiene que descargar bootstrap?
-02:17:07	[Tutor Adjunto] Andrés Pata:	Replying to "Entonces no se tiene..."
-
-al igual que google fonts se puede pero no es necesario
-02:17:45	Sebastian Piñeiro Madero:	Replying to "Entonces no se tiene..."
-
-Y con los links nunca existe problemas de que no corren?
-02:18:37	[Tutor Adjunto] Andrés Pata:	Replying to "Entonces no se tiene..."
-
-mientras el servidor este bien, siempre corre. Es muy confiable bootstrap (casi tanto como google), epro si, por eso motivo mismo descargados es mejor siempre.
-02:18:55	[Tutor Adjunto] Andrés Pata:	Replying to "Entonces no se tiene..."
-
-hasta el momento, nunca vi que se haya caido
-02:18:58	Ronaldo Villalba:	una consulta no hay una manera de ver los estilos sin agregarlos al css? tipo para elegir uno
-02:19:15	[Tutor Adjunto] Andrés Pata:	Tenes que descargar los no minificados
-02:20:00	Sebastian Piñeiro Madero:	Replying to "Entonces no se tiene..."
-
-Vale gracias por el dato
-02:20:13	[Tutor Adjunto] Andrés Pata:	Un archivo minificado, es un archivo sin espacios en 1 sola línea de código que la máquina puede corer más rápido, ahora, solo un loquito puede trabajar sobre un minificado
-02:20:15	Sebastian Piñeiro Madero:	Replying to "Entonces no se tiene..."
-
-Me quedo mas claro
-02:22:27	Alberto Castillo:	que elementos vamos a ocupar de Bootstrap?
-02:23:02	[Tutor Adjunto] Andrés Pata:	Replying to "que elementos vamos ..."
-
-ustedes eligen
-02:23:22	[Tutor Adjunto] Andrés Pata:	Replying to "que elementos vamos ..."
-
-pero hay 2 categorías grandes y tienen que usar 1 de cada, ya lo veremos
-02:24:09	Franco Delgado:	:o
-02:25:38	Ronaldo Villalba:	creo que ahora ya entendi todo
-02:25:52	Ronaldo Villalba:	Replying to "creo que ahora ya en..."
-
-es muy bueno jaja
-02:26:00	Ali Alvarado:	O sea que llenaremos los elementos de diferentes clases??
-02:26:25	[Tutor Adjunto] Andrés Pata:	Replying to "O sea que llenaremos..."
-
-es normal tener varias clases por elementos
-02:26:31	[TUTORA] Julieta Romano:	Reacted to "es normal tener vari..." with 👆
-02:26:39	Mauricio Diaz:	Reacted to "es normal tener vari..." with 👍🏼
-02:26:53	Sebastian Piñeiro Madero:	Entonces esos errores que tuve con br y hr en mi entrega se pueden corregir con bootstrap?
-02:27:18	Gastón Larrosa:	no me quemee
-02:27:25	Mauricio Diaz:	Reacted to "no me quemee" with 😂
-02:27:31	Sergio Cetti:	Reacted to "no me quemee" with 😂
-02:27:37	Alberto Castillo:	en caso de querer personalizar el color?
-02:27:38	[Tutor Adjunto] Andrés Pata:	Replying to "Entonces esos errore..."
-
-tranquilamente
-02:27:40	Ali Alvarado:	Reacted to "no me quemee" with 😂
-02:27:47	Guido Lopez:	Reacted to "no me quemee" with 😂
-02:27:48	Emiliano Duque Iglesias:	Además se trata de poder entender que es lo que hace Bootstrap, al introducir cierta clase
-02:27:50	Ronaldo Villalba:	Reacted to "no me quemee" with 😂
-02:27:57	[Tutor Adjunto] Andrés Pata:	Replying to "en caso de querer pe..."
-
-lo sobrescribis con efecto cascada
-02:27:57	Sebastian Piñeiro Madero:	Reacted to "no me quemee" with 😂
-02:28:04	Emiliano Duque Iglesias:	Reacted to "no me quemee" with 😂
-02:28:08	Sebastian Piñeiro Madero:	Replying to "no me quemee"
-
-jajajaja
-02:28:12	[Tutor Adjunto] Andrés Pata:	Replying to "en caso de querer pe..."
-
-por eso primero el link al css de bootstrap y luego el tuyo, para poder pisarlo
-02:28:18	[Tutor Adjunto] Andrés Pata:	Reacted to "Además se trata de p..." with ☝️
-02:28:33	Alberto Castillo:	Reacted to "por eso primero el l..." with 👍
-02:28:38	Sebastian Piñeiro Madero:	Reacted to "tranquilamente" with 👏
-02:28:51	[TUTORA] Julieta Romano:	Reacted to "Además se trata de p..." with 👏
-02:29:39	Alberto Castillo:	con sass también podemos personalizar?
-02:29:50	Sebastian Piñeiro Madero:	Y porque no se podría utilizar las de bootstrap?
-02:29:57	[Tutor Adjunto] Andrés Pata:	Replying to "con sass también pod..."
-
-sass es un preprocesador de css, es algo distinto
-02:30:03	[TUTORA] Julieta Romano:	Reacted to "sass es un preproces..." with 👆
-02:30:08	Ronaldo Villalba:	Reacted to "sass es un preproces..." with 😰
-02:30:09	[Tutor Adjunto] Andrés Pata:	Replying to "con sass también pod..."
-
-es una manera más cómodo de escribir css
-02:30:21	Alberto Castillo:	Reacted to "sass es un preproces..." with 👆
-02:30:54	[Tutor Adjunto] Andrés Pata:	Hay que usar ambas, evaluamos el código propio y como adaptan bootstrap a su página, queremos que salgan como desarrolladores web, no como usuarios de bootstrap
-02:31:04	Ronaldo Villalba:	ya nos retaron
-02:31:08	[TUTORA] Julieta Romano:	Jajaj ya se están preparando desde ahora
-02:31:24	Alberto Castillo:	Reacted to "es una manera más có..." with 👍
-02:31:28	[TUTORA] Julieta Romano:	Reacted to "Hay que usar ambas, ..." with 👆
-02:32:10	Guido Lopez:	osea que solamente con Bootstrap podemos codear estilo en el HTML?
-02:32:24	Ronaldo Villalba:	Reacted to "Jajaj ya se están pr..." with 🥲
-02:33:45	[Tutor Adjunto] Andrés Pata:	Replying to "osea que solamente c..."
-
-expliquese, no entiendo mucho lo que decis
-02:34:13	[Tutor Adjunto] Andrés Pata:	las comillas
-02:34:28	Ricardo Cristopher:	Replying to "las comillas"
-
-un clasico
-02:35:24	Guido Lopez:	Replying to "osea que solamente c..."
-
-perdón, quise decir que, no tenemos que usar hr ni nada que tenga que ver con el estimo en el HTML, solo en css. Pero cuando usamos Bootstrap, los estilos van en las class del index
-02:36:20	[Tutor Adjunto] Andrés Pata:	Replying to "osea que solamente c..."
-
-eso esta perfecto
-02:36:34	Guido Lopez:	Replying to "osea que solamente c..."
-
-gracias
-02:36:53	[Tutor Adjunto] Andrés Pata:	Replying to "osea que solamente c..."
-
-fíjate que dar estilo a travez de clases es lo ideal
-02:37:27	Guido Lopez:	Replying to "osea que solamente c..."
-
-sisi
-02:38:12	Alberto Castillo:	si quiero centrar el botón?
-02:38:35	Franco Delgado:	Si quiero editar el boton con css,debo darle una class?
-02:38:40	[Tutor Adjunto] Andrés Pata:	Replying to "si quiero centrar el..."
-
-flex (y bootstrap tiene un sistema de grillas con flex)
-02:38:44	Ignacio Escarcha:	Osea que con bootstrap podemos dar estilos básicos, y si queremos mas personalizado lo hacemos con css?
-02:39:35	[Tutor Adjunto] Andrés Pata:	Replying to "Osea que con bootstr..."
-
-y además de eso, pueden agarrar cosas de bootstrap y modificarlas (como agarrar el botón por su forma copada pero cambiarle el color para que se adapte a la página)
-02:40:05	Ignacio Escarcha:	Replying to "Osea que con bootstr..."
-
-que lindo que todo se pueda combinar
-02:41:12	[Tutor Adjunto] Andrés Pata:	meter bootstrap a un proyecto empezado es un bajon, pero si empiezan con bootstrap desde 0 no terminan aprendiendo css
-02:41:29	Yannick Lerner:	y el id del nombre lo dejo igual? aunque diga algo del password
-02:42:01	[Tutor Adjunto] Andrés Pata:	Replying to "y el id del nombre l..."
-
-lean bien si pueden modificar el id y como modificarlo
-02:42:35	Manuela Gomez:	como que disable?? no entendí eso
-02:42:59	Alberto Castillo:	se puede agregar un ojito al password para ver la palabra escrita?
-02:43:30	[Tutor Adjunto] Andrés Pata:	copiar puede cualquiera, el programador lo adapta
-02:43:50	Ignacio Escarcha:	Reacted to "copiar puede cualqui..." with 👏
-02:44:01	Ronaldo Villalba:	Reacted to "copiar puede cualqui..." with 💪
-02:44:04	Emiliano Duque Iglesias:	Reacted to "copiar puede cualqui..." with 👏
-02:46:01	Sebastian Piñeiro Madero:	Una pregunta el código del formulario se saco de la pagina de bootstrap? Que no alcance a ver bien
-02:46:15	Ignacio Escarcha:	Replying to "Una pregunta el códi..."
-
-si
-02:46:15	[Tutor Adjunto] Andrés Pata:	Replying to "Una pregunta el códi..."
-
-si
-02:46:16	Ronaldo Villalba:	Chau profesora y tutore/as, que descansen y feliz día para mañana.
-02:46:21	Alberto Castillo:	bye
-02:46:24	[TUTORA] Julieta Romano:	Reacted to "Chau profesora y tut..." with ❤️
-02:46:30	[Tutor Adjunto] Andrés Pata:	suerte y disfruten el feriado
-02:46:32	Guido Lopez:	feliz dia para todos mañana, gracias por la clase
-02:46:37	Sergio Cetti:	muchas gracias!
-02:46:38	Luca Sanchez Ramirez:	feliz dia y buenas nochess
-02:46:41	Emiliano Duque Iglesias:	Muchas gracias profe y tutores, feliz día para mañana
-02:46:43	Alberto Castillo:	feliz día del trabajador
-02:46:45	Ignacio Escarcha:	feliz día a todos ustedes!
-02:46:46	Nicolás Kupiec:	Buenas noches!!
-02:46:52	Ronaldo Villalba:	feliz dia a todos
-02:46:52	[TUTORA] Julieta Romano:	Buenas noches a todos! Feliz dia para mañana! Nos vemos, descansen°
-02:46:53	Ignacio Escarcha:	byee
